@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6276D47019B5585000361048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6276D46F19B5585000361048 /* main.m */; };
+		6276D47319B5585000361048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6276D47219B5585000361048 /* AppDelegate.m */; };
+		6276D47619B5585000361048 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6276D47519B5585000361048 /* ViewController.m */; };
+		6276D47919B5585000361048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6276D47719B5585000361048 /* Main.storyboard */; };
+		6276D47B19B5585000361048 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6276D47A19B5585000361048 /* Images.xcassets */; };
+		6276D48719B5585000361048 /* HandOffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6276D48619B5585000361048 /* HandOffTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6276D48119B5585000361048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6276D46219B5585000361048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6276D46919B5585000361048;
+			remoteInfo = HandOff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6276D46A19B5585000361048 /* HandOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6276D46E19B5585000361048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6276D46F19B5585000361048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6276D47119B5585000361048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6276D47219B5585000361048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6276D47419B5585000361048 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6276D47519B5585000361048 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6276D47819B5585000361048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6276D47A19B5585000361048 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6276D48019B5585000361048 /* HandOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6276D48519B5585000361048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6276D48619B5585000361048 /* HandOffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandOffTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6276D46719B5585000361048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6276D47D19B5585000361048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6276D46119B5585000361048 = {
+			isa = PBXGroup;
+			children = (
+				6276D46C19B5585000361048 /* HandOff */,
+				6276D48319B5585000361048 /* HandOffTests */,
+				6276D46B19B5585000361048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6276D46B19B5585000361048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6276D46A19B5585000361048 /* HandOff.app */,
+				6276D48019B5585000361048 /* HandOffTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6276D46C19B5585000361048 /* HandOff */ = {
+			isa = PBXGroup;
+			children = (
+				6276D47119B5585000361048 /* AppDelegate.h */,
+				6276D47219B5585000361048 /* AppDelegate.m */,
+				6276D47419B5585000361048 /* ViewController.h */,
+				6276D47519B5585000361048 /* ViewController.m */,
+				6276D47719B5585000361048 /* Main.storyboard */,
+				6276D47A19B5585000361048 /* Images.xcassets */,
+				6276D46D19B5585000361048 /* Supporting Files */,
+			);
+			path = HandOff;
+			sourceTree = "<group>";
+		};
+		6276D46D19B5585000361048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6276D46E19B5585000361048 /* Info.plist */,
+				6276D46F19B5585000361048 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6276D48319B5585000361048 /* HandOffTests */ = {
+			isa = PBXGroup;
+			children = (
+				6276D48619B5585000361048 /* HandOffTests.m */,
+				6276D48419B5585000361048 /* Supporting Files */,
+			);
+			path = HandOffTests;
+			sourceTree = "<group>";
+		};
+		6276D48419B5585000361048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6276D48519B5585000361048 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6276D46919B5585000361048 /* HandOff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6276D48A19B5585000361048 /* Build configuration list for PBXNativeTarget "HandOff" */;
+			buildPhases = (
+				6276D46619B5585000361048 /* Sources */,
+				6276D46719B5585000361048 /* Frameworks */,
+				6276D46819B5585000361048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandOff;
+			productName = HandOff;
+			productReference = 6276D46A19B5585000361048 /* HandOff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6276D47F19B5585000361048 /* HandOffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6276D48D19B5585000361048 /* Build configuration list for PBXNativeTarget "HandOffTests" */;
+			buildPhases = (
+				6276D47C19B5585000361048 /* Sources */,
+				6276D47D19B5585000361048 /* Frameworks */,
+				6276D47E19B5585000361048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6276D48219B5585000361048 /* PBXTargetDependency */,
+			);
+			name = HandOffTests;
+			productName = HandOffTests;
+			productReference = 6276D48019B5585000361048 /* HandOffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6276D46219B5585000361048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "石田 勝嗣";
+				TargetAttributes = {
+					6276D46919B5585000361048 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6276D47F19B5585000361048 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6276D46919B5585000361048;
+					};
+				};
+			};
+			buildConfigurationList = 6276D46519B5585000361048 /* Build configuration list for PBXProject "HandOff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6276D46119B5585000361048;
+			productRefGroup = 6276D46B19B5585000361048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6276D46919B5585000361048 /* HandOff */,
+				6276D47F19B5585000361048 /* HandOffTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6276D46819B5585000361048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6276D47919B5585000361048 /* Main.storyboard in Resources */,
+				6276D47B19B5585000361048 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6276D47E19B5585000361048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6276D46619B5585000361048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6276D47619B5585000361048 /* ViewController.m in Sources */,
+				6276D47319B5585000361048 /* AppDelegate.m in Sources */,
+				6276D47019B5585000361048 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6276D47C19B5585000361048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6276D48719B5585000361048 /* HandOffTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6276D48219B5585000361048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6276D46919B5585000361048 /* HandOff */;
+			targetProxy = 6276D48119B5585000361048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6276D47719B5585000361048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6276D47819B5585000361048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6276D48819B5585000361048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6276D48919B5585000361048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6276D48B19B5585000361048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HandOff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6276D48C19B5585000361048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HandOff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6276D48E19B5585000361048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandOffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandOff.app/HandOff";
+			};
+			name = Debug;
+		};
+		6276D48F19B5585000361048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandOffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandOff.app/HandOff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6276D46519B5585000361048 /* Build configuration list for PBXProject "HandOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6276D48819B5585000361048 /* Debug */,
+				6276D48919B5585000361048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6276D48A19B5585000361048 /* Build configuration list for PBXNativeTarget "HandOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6276D48B19B5585000361048 /* Debug */,
+				6276D48C19B5585000361048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6276D48D19B5585000361048 /* Build configuration list for PBXNativeTarget "HandOffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6276D48E19B5585000361048 /* Debug */,
+				6276D48F19B5585000361048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6276D46219B5585000361048 /* Project object */;
+}
