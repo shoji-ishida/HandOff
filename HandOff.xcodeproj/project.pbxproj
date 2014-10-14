@@ -12,18 +12,7 @@
 		6276D47619B5585000361048 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6276D47519B5585000361048 /* ViewController.m */; };
 		6276D47919B5585000361048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6276D47719B5585000361048 /* Main.storyboard */; };
 		6276D47B19B5585000361048 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6276D47A19B5585000361048 /* Images.xcassets */; };
-		6276D48719B5585000361048 /* HandOffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6276D48619B5585000361048 /* HandOffTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6276D48119B5585000361048 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6276D46219B5585000361048 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6276D46919B5585000361048;
-			remoteInfo = HandOff;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6276D46A19B5585000361048 /* HandOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,20 +24,10 @@
 		6276D47519B5585000361048 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6276D47819B5585000361048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6276D47A19B5585000361048 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6276D48019B5585000361048 /* HandOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6276D48519B5585000361048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6276D48619B5585000361048 /* HandOffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandOffTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6276D46719B5585000361048 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6276D47D19B5585000361048 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				6276D46C19B5585000361048 /* HandOff */,
-				6276D48319B5585000361048 /* HandOffTests */,
 				6276D46B19B5585000361048 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				6276D46A19B5585000361048 /* HandOff.app */,
-				6276D48019B5585000361048 /* HandOffTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,23 +76,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6276D48319B5585000361048 /* HandOffTests */ = {
-			isa = PBXGroup;
-			children = (
-				6276D48619B5585000361048 /* HandOffTests.m */,
-				6276D48419B5585000361048 /* Supporting Files */,
-			);
-			path = HandOffTests;
-			sourceTree = "<group>";
-		};
-		6276D48419B5585000361048 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6276D48519B5585000361048 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,24 +96,6 @@
 			productReference = 6276D46A19B5585000361048 /* HandOff.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6276D47F19B5585000361048 /* HandOffTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6276D48D19B5585000361048 /* Build configuration list for PBXNativeTarget "HandOffTests" */;
-			buildPhases = (
-				6276D47C19B5585000361048 /* Sources */,
-				6276D47D19B5585000361048 /* Frameworks */,
-				6276D47E19B5585000361048 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6276D48219B5585000361048 /* PBXTargetDependency */,
-			);
-			name = HandOffTests;
-			productName = HandOffTests;
-			productReference = 6276D48019B5585000361048 /* HandOffTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,10 +107,6 @@
 				TargetAttributes = {
 					6276D46919B5585000361048 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					6276D47F19B5585000361048 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 6276D46919B5585000361048;
 					};
 				};
 			};
@@ -186,7 +124,6 @@
 			projectRoot = "";
 			targets = (
 				6276D46919B5585000361048 /* HandOff */,
-				6276D47F19B5585000361048 /* HandOffTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			files = (
 				6276D47919B5585000361048 /* Main.storyboard in Resources */,
 				6276D47B19B5585000361048 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6276D47E19B5585000361048 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,23 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6276D47C19B5585000361048 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6276D48719B5585000361048 /* HandOffTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6276D48219B5585000361048 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6276D46919B5585000361048 /* HandOff */;
-			targetProxy = 6276D48119B5585000361048 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6276D47719B5585000361048 /* Main.storyboard */ = {
@@ -268,7 +182,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shoji Ishida (76574Q78E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shoji Ishida (76574Q78E2)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -309,7 +224,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shoji Ishida (76574Q78E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shoji Ishida (76574Q78E2)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -332,9 +248,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shoji Ishida (76574Q78E2)";
 				INFOPLIST_FILE = HandOff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -343,43 +262,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shoji Ishida (76574Q78E2)";
 				INFOPLIST_FILE = HandOff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		6276D48E19B5585000361048 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HandOffTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandOff.app/HandOff";
-			};
-			name = Debug;
-		};
-		6276D48F19B5585000361048 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HandOffTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandOff.app/HandOff";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -402,14 +290,7 @@
 				6276D48C19B5585000361048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		6276D48D19B5585000361048 /* Build configuration list for PBXNativeTarget "HandOffTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6276D48E19B5585000361048 /* Debug */,
-				6276D48F19B5585000361048 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -42,4 +42,29 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)application
+willContinueUserActivityWithType:(NSString *)userActivityType {
+    NSLog(@"AppDelegate:willContinueUserActivityWithType: %@", userActivityType);
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+continueUserActivity:(NSUserActivity *)userActivity
+restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler {
+    NSLog(@"AppDelegate:continueUserActivity");
+    UIViewController *topViewController = (UIViewController *)[self.window rootViewController];
+    restorationHandler(@[topViewController]);
+    return YES;
+}
+
+- (void)application:(UIApplication *)application
+didUpdateUserActivity:(NSUserActivity *)userActivity {
+    NSLog(@"AppDelegate:didUpdateUserActivity");
+}
+
+- (void)application:(UIApplication *)application
+didFailToContinueUserActivityWithType:(NSString *)userActivityType
+              error:(NSError *)error {
+    NSLog(@"AppDelegate:didFailToContinueUserActivityWithType");
+}
 @end
